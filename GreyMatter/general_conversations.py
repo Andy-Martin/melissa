@@ -14,7 +14,7 @@ def tell_joke():
              'What happened to the frogs car when it broke down? [[slnc 2000]] It got toad away',
              'Why was six scared of seven? [[slnc 2000]] Because seven ate nine',
              'I might kill you in your sleep [[slnc 2000]] only kidding',
-             'Knock Knock. [[slnc 1500]] The interrupting sheep. [[slnc 700]] [[inpt PHON]] Ba r r r r r r r r r r!']
+             'Knock Knock. [[slnc 1500]] The interrupting sheep. [[slnc 700]] [[inpt PHON]] Bar!']
     tts(random.choice(jokes))
 
 def who_am_i(name):
