@@ -11,8 +11,8 @@ def who_are_you():
 
 def tell_joke():
     jokes = ['Today, a man knocked on my door and asked for a small donation towards the local swimming pool. [[slnc 1500]] I gave him a glass of water.',
-             'What happened to the frogs car when it broke down? [[slnc 3000]] It got toad away',
-             'Why was six scared of seven? [[slnc 3000]] Because seven ate nine',
+             'What happened to the frogs car when it broke down? [[slnc 2000]] It got toad away',
+             'Why was six scared of seven? [[slnc 2000]] Because seven ate nine',
              'I might kill you in your sleep [[slnc 2000]] only kidding',
              'Knock Knock. [[slnc 1500]] The interrupting sheep. [[slnc 700]] [[inpt PHON]] Ba r r r r r r r r r r!']
     tts(random.choice(jokes))

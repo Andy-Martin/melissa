@@ -5,8 +5,6 @@ def brain(name, speech_text):
         """
         This functiuon checks if the items in the list (specified in argument)
         are present in the user's input speech.
-        :param check:
-        :return:
         """
         words_of_message = speech_text.split()
         if set(check).issubset(set(words_of_message)):
