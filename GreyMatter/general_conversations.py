@@ -24,7 +24,7 @@ def where_born():
     tts('I was created by Andy Martin, in his bungalow in Orpington')
 
 def how_are_you():
-    tts('I have no feelings, for I am a computer... or possibly a vulcan trapped in a computer. Either way I am without emotion.')
+    tts('I have no feelings, for I am a computer [[slnc 1500]] or possibly a vulcan trapped in a computer. Either way I am without emotion.')
 
 def undefined():
     tts('I dont know what that means!')
