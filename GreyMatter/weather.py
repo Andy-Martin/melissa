@@ -7,7 +7,7 @@ def weather(city_name, city_code):
     weather_result = (
         "Weather.com says: It is " + weather_com_result['current_conditions']
         ['text'].lower() + " and" + weather_com_result['current_conditions']
-        ['template'] + "degree celcius now in " +
+        ['temperature'] + "degree celcius now in " +
         city_name)
 
     tts(weather_result)
