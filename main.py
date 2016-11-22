@@ -17,6 +17,7 @@ city_code = profile_data['city_code']
 
 tts('Welcome' + name + ', systems are now ready to run. How can I help you?')
 
+
 def main():
     r = sr.Recognizer()
     with sr.Microphone() as source:

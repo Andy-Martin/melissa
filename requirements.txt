@@ -4,6 +4,8 @@ oauthlib==1.0.3
 requests-oauthlib==0.5.0
 Wave==0.0.2
 PyAudio==0.2.9
+PyYAML==3.12
+
 
 # Weather module
 pywapi==0.3.8
@@ -18,3 +20,6 @@ pyvona==1.1
 
 # Define Subject
 wikipedia==1.4.0
+
+# Business news
+beautifulsoup4==4.5.1
