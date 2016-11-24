@@ -1,8 +1,4 @@
-name:
-    Andy
-city_name:
-    Orpington
-city_code:
-    UKXX7893
-music_path:
-    /Users/andrewmartin/Music
+name: Andy
+city_name: Orpington
+city_code: UKXX7893
+music_path: /Users/andrewmartin/Music

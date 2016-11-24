@@ -48,21 +48,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="profile.yaml.default" pinned="false" current-in-tab="false">
+      <file leaf-file-name="profile.yaml.default" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/profile.yaml.default">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="29" />
+            <state relative-caret-position="60">
+              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="profile.yaml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="profile.yaml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/profile.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -158,8 +158,8 @@
         <option value="$PROJECT_DIR$/GreyMatter/sleep.py" />
         <option value="$PROJECT_DIR$/brain.py" />
         <option value="$PROJECT_DIR$/main.py" />
-        <option value="$PROJECT_DIR$/profile.yaml.default" />
         <option value="$PROJECT_DIR$/profile.yaml" />
+        <option value="$PROJECT_DIR$/profile.yaml.default" />
       </list>
     </option>
   </component>
@@ -542,7 +542,14 @@
       <option name="project" value="LOCAL" />
       <updated>1480002439634</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="changes yaml formatting so that pycharm stops complaining">
+      <created>1480003580211</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1480003580211</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -606,7 +613,8 @@
     <MESSAGE value="Cleans up business module and requirements.txt" />
     <MESSAGE value="Allows user to turn off melissa" />
     <MESSAGE value="Gets rid of annoying start-up message" />
-    <option name="LAST_COMMIT_MESSAGE" value="Gets rid of annoying start-up message" />
+    <MESSAGE value="changes yaml formatting so that pycharm stops complaining" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes yaml formatting so that pycharm stops complaining" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1043,15 +1051,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/profile.yaml.default">
+    <entry file="file://$PROJECT_DIR$/profile.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="29" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/profile.yaml">
+    <entry file="file://$PROJECT_DIR$/profile.yaml.default">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
