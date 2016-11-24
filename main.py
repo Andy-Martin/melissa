@@ -14,7 +14,7 @@ city_name = profile_data['city_name']
 city_code = profile_data['city_code']
 speech_text = ""
 
-tts('Welcome' + name + ', systems are now ready to run. How can I help you?')
+tts('Welcome' + name + '. How can I help you?')
 
 
 def main():
