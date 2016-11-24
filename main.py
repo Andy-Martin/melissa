@@ -24,7 +24,6 @@ def main():
         print("Say something!")
         audio = r.listen(source)
 
-
     try:
         speech_text = r.recognize_google(audio).lower().replace("'", "")
         print("Melissa thinks you said '" + speech_text + "'")
