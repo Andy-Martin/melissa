@@ -1,7 +1,7 @@
-from GreyMatter import tell_time, general_conversations, weather, define_subject, business_news_reader, sleep
+from GreyMatter import tell_time, general_conversations, weather, define_subject, business_news_reader, sleep, play_music
 
 
-def brain(name, speech_text, city_name, city_code):
+def brain(name, speech_text, city_name, city_code, music_path):
     def check_message(check):
         """
         This functiuon checks if the items in the list (specified in argument)
@@ -42,6 +42,12 @@ def brain(name, speech_text, city_name, city_code):
 
     elif check_message(['sleep']) or check_message(['shutdown', 'melissa']):
         sleep.go_to_sleep()
+
+    elif check_message(['play', 'music']) or check_message(['music']):
+        play_music.play_random(music_path)
+
+    elif check_message(['play']):
+        play_music.play_specific_music(speech_text, music_path)
 
     else:
         general_conversations.undefined()

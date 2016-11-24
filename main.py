@@ -4,6 +4,8 @@ import yaml
 from GreyMatter.SenseCells.tts import tts
 from brain import brain
 
+from GreyMatter import play_music
+
 profile = open('profile.yaml')
 profile_data = yaml.safe_load(profile)
 profile.close()
@@ -13,9 +15,11 @@ name = profile_data['name']
 city_name = profile_data['city_name']
 city_code = profile_data['city_code']
 speech_text = ""
+music_path = profile_data['music_path']
 
 tts('Welcome' + name + '. How can I help you?')
 
+play_music.mp3gen(music_path)
 
 def main():
     global speech_text
