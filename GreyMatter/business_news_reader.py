@@ -10,7 +10,7 @@ news_details_list = []
 for i in range(1, 2):
     changing_slug = '/page-' + str(i)
     url = fixed_url + changing_slug
-    r  = requests.get(url)
+    r = requests.get(url)
     data = r.text
 
     soup = BeautifulSoup(data, "html.parser")
@@ -23,10 +23,13 @@ for i in range(1, 2):
     for news_details in soup.find_all('p', 'intro'):
         news_details_list.append(news_details.get_text())
 
-news_headlines_list_small = [element.lower().replace("(", "").replace(")", "").replace("'", "") for element in news_headlines_list]
-news_details_list_small = [element.lower().replace("(", "").replace(")", "").replace("'", "") for element in news_details_list]
+news_headlines_list_small = (
+    [element.lower().replace("(", "").replace(")", "").replace("'", "") for element in news_headlines_list])
+news_details_list_small = (
+    [element.lower().replace("(", "").replace(")", "").replace("'", "") for element in news_details_list])
 
 news_dictionary = dict(zip(news_headlines_list_small, news_details_list_small))
+
 
 def news_reader():
     for key, value in news_dictionary.items():
