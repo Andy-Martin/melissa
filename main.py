@@ -1,10 +1,8 @@
-import sys
-
-import yaml
 import speech_recognition as sr
+import yaml
 
-from brain import brain
 from GreyMatter.SenseCells.tts import tts
+from brain import brain
 
 profile = open('profile.yaml')
 profile_data = yaml.safe_load(profile)
@@ -14,15 +12,18 @@ profile.close()
 name = profile_data['name']
 city_name = profile_data['city_name']
 city_code = profile_data['city_code']
+speech_text = ""
 
 tts('Welcome' + name + ', systems are now ready to run. How can I help you?')
 
 
 def main():
+    global speech_text
     r = sr.Recognizer()
     with sr.Microphone() as source:
         print("Say something!")
         audio = r.listen(source)
+
 
     try:
         speech_text = r.recognize_google(audio).lower().replace("'", "")
