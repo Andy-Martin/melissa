@@ -1,4 +1,5 @@
-from GreyMatter import tell_time, general_conversations, weather, define_subject, business_news_reader, sleep, play_music
+from GreyMatter import (
+    tell_time, general_conversations, weather, define_subject, business_news_reader, sleep, play_music)
 
 
 def brain(name, speech_text, city_name, city_code, music_path):
