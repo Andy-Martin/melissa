@@ -21,6 +21,7 @@ tts('Welcome' + name + '. How can I help you?')
 
 play_music.mp3gen(music_path)
 
+
 def main():
     global speech_text
     r = sr.Recognizer()
@@ -37,5 +38,6 @@ def main():
         print("Could not request results from Google Speech Recognition service; {0}".format(e))
 
     brain(name, speech_text, city_name, city_code)
+
 
 main()

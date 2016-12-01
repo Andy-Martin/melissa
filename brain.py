@@ -1,5 +1,5 @@
 from GreyMatter import (
-    tell_time, general_conversations, weather, define_subject, business_news_reader, sleep, play_music)
+    tell_time, general_conversations, weather, define_subject, business_news_reader, sleep, play_music, open_firefox)
 
 
 def brain(name, speech_text, city_name, city_code, music_path):
@@ -49,6 +49,9 @@ def brain(name, speech_text, city_name, city_code, music_path):
 
     elif check_message(['play']):
         play_music.play_specific_music(speech_text, music_path)
+
+    elif check_message(['open', 'firefox']):
+        open_firefox.open_firefox()
 
     else:
         general_conversations.undefined()
